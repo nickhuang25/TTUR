@@ -1,3 +1,4 @@
-FROM tensorflow/tensorflow:1.15.1-gpu
+FROM tensorflow/tensorflow:1.15.0-gpu
 
-RUN pip3 install --upgrade ipython
+RUN pip install --upgrade pip
+RUN pip install imageio scip --upgrade pip

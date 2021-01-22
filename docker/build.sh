@@ -2,5 +2,5 @@
 
 docker build \
     --network host \
-    -t mnist_tf:2.3.1 \
+    -t fid:1.0.0 \
     ./docker
